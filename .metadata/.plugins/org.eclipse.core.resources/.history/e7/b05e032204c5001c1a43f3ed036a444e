@@ -1,0 +1,15 @@
+package DTO02;
+
+public class BoardDTO {
+	
+	int idx;
+	String title;
+	String content;
+	String writer;
+	int viewCnt;
+	Boolean noticeYn;
+	Boolean secretYn;
+	Boolean changeYn;
+	int fileIdxs;
+
+}

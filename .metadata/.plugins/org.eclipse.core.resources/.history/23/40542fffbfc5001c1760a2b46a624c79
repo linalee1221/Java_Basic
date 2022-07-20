@@ -1,0 +1,10 @@
+package DTO08;
+
+public class Print {
+	int x;
+	int y;
+	
+	public void draw() {
+		System.out.println("Print");
+	}
+}

@@ -1,0 +1,39 @@
+package DTO02;
+
+import DTO01.CommentDTO;
+import DTO01.CommonDTO;
+
+public class DTOTest02 {
+
+	public static void main(String[] args) {
+		
+		BoardDTO boardDTO = new BoardDTO();
+
+		boardDTO.setIdx("번호(PX)");
+		boardDTO.setTitle("제목");
+		boardDTO.setContent("내용");
+		boardDTO.setWriter("작성자");
+		boardDTO.setViewCnt("조회 수");
+		boardDTO.setNoticeYn(true);
+		boardDTO.setSecretYn(false);
+		boardDTO.setChangeYn(true);
+		boardDTO.setFileIdxs(1);
+		
+		boardDTO.info();
+		
+		
+
+		// AttachDTO에 현재 저장된 내용을 출력
+		AttachDTO attachDTO = new AttachDTO();
+
+		attachDTO.setIdx(0);
+		attachDTO.setBoardIdx(1);
+		attachDTO.setOriginalName("원본 파일명");
+		attachDTO.setSaveName("저장 파일명");
+		attachDTO.setSize(10);
+
+		System.out.println("==============================");
+		attachDTO.info();
+	}
+
+}

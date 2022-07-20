@@ -1,0 +1,63 @@
+package BBS_01;
+
+import java.util.ArrayList;
+
+public class BbsDAO {
+
+	// 여기서는 선언만
+	ArrayList<BbsDTO> data;
+	int count = 0;
+
+	// 기본생성자
+	public BbsDAO() {
+		// 자료구조 생성 : BbsDTO
+		data = new ArrayList<BbsDTO>();
+	}
+
+	// Create : 입력메서드
+	public void create(BbsDTO bbs) {
+		count += 1;
+		data.add(bbs);
+		// bbs쪽에 setter를 이용해서 저장 : no
+		// 글번호 : no
+		bbs.setNo(count);
+	}
+
+	// Read : no에 해당하는 특정 글 읽기 메서드
+	public BbsDTO read(int no) {
+		// ArrayList data : 전체 글 목록을 가지고있는 자료구조
+		// 매개변수 글 번호(no)에 해당하는 아이가 있으면 반환
+		for (BbsDTO item : data) {
+			if (item.getNo() == no) {
+				return item;
+			}
+		}
+
+		return null;
+	}
+
+	// Read All : 전체 글 읽기
+	public ArrayList<BbsDTO> readAll() {
+
+		// ArrayList data 전체 글
+		return data;
+	}
+
+	// Delete : 글 지우기
+	public void delete(int no) {
+		// ArrayList data : 전체 글
+		// item : 전체 글 중 하나
+		// no : 글 번호
+		for (BbsDTO item : data) {
+			if (item.getNo() == no) {
+				data.remove(item);
+			}
+		}
+	}
+
+	public void Update(BbsDTO bbs) {
+		// 아무것도 안함
+
+	}
+
+}

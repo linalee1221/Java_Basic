@@ -1,0 +1,29 @@
+package Client;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.util.Scanner;
+
+public class SendThread extends Thread {
+	private final Socket socket;
+	
+	// 콘솔 입력 받기
+	Scanner scanner = new Scanner(System.in);
+
+	public SendThread(Socket socket) {
+		this.socket = socket;
+	}
+
+	@Override
+	public void run() {
+		try {
+			DataOutputStream sendWriter = new DataOutputStream(socket.getOutputStream());
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+}

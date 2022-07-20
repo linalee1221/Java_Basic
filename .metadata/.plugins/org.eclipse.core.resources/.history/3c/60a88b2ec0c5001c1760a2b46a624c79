@@ -1,0 +1,8 @@
+package DTO08;
+
+public class Line extends Print {
+	
+	public void draw() {
+		System.out.println("Line");
+	}
+}

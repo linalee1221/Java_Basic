@@ -1,0 +1,11 @@
+package DTO03;
+
+public class BlackPointDTO extends DTO {
+
+	boolean blackYn; // 흑백여부
+	
+	void setBlackYn(boolean blackYn) {
+		this.blackYn = blackYn;
+	}
+	
+}

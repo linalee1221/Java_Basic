@@ -1,0 +1,11 @@
+package DTO03;
+
+public class BlackPointDTO extends DTO {
+
+	boolean blackYn;
+	
+	void sh(boolean blackYn) {
+		this.blackYn = blackYn;
+	}
+	
+}

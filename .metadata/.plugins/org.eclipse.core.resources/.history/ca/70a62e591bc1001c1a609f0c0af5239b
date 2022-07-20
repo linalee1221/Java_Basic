@@ -1,0 +1,18 @@
+import java.net.*;
+import java.util.*;
+
+public class Ex16_1 {
+
+	public static void main(String[] args) {
+		InetAddress ip = null;
+		InetAddress[] ipArr = null;
+		
+		try {
+			ip = InetAddress.getByName("www.naver.com");
+			System.out.println("getHostName() : " + ip.getHostName());
+			System.out.println("getHostAddress() : " + ip.getHostAddress());
+			System.out.println("toString() : " + ip.toString());
+		}
+	}
+
+}

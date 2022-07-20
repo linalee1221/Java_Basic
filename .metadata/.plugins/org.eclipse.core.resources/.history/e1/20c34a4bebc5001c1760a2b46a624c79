@@ -1,0 +1,7 @@
+package Member;
+
+public class MemberServiceImpl implements MemberService {
+	
+	
+
+}

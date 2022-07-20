@@ -1,0 +1,27 @@
+package ex58;
+
+import java.util.ArrayList;
+
+public class Arraylist_Prac {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list1 = new ArrayList<Integer>(10);
+		
+		// 항상 DB, 자료구조(Collection) : CRUD
+		// C : Create (자료에 넣기)
+		// R : Read (자료를 읽기)
+		// U : Update (일부 자료를 수정하기)
+		// D : Delete (자료를 삭제하기)
+		
+		// ArrayList 자료구조에 C : Create
+		list1.add(new Integer(5));
+		list1.add(new Integer(4));
+		list1.add(new Integer(2));
+		list1.add(new Integer(0));
+		list1.add(new Integer(1));
+		
+		ArrayList list2 = new ArrayList(list1.subList(1, 4));
+		
+	}
+
+}

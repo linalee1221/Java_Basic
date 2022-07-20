@@ -1,0 +1,14 @@
+
+public class MemberDTO {
+	String memberId;
+	String memberPw;
+	String memberName;
+	String memberMail;
+	String memberAddr1;
+	String memberAddr2;
+	String memberAddr3;
+	int adminCk;
+	int regDate;
+	int money;
+	int point;
+}

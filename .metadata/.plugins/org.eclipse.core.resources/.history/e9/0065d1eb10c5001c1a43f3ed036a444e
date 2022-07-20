@@ -1,0 +1,6 @@
+package DTO03;
+
+public class ColorPointDTO extends DTO {
+	
+	String color;
+}

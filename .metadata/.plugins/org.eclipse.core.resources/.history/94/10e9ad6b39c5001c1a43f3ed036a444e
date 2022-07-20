@@ -1,0 +1,11 @@
+package DTO7;
+
+public class CategoryDTO {
+
+	int	idParent;
+	String title;
+	String icon;
+	String description;
+
+	
+}

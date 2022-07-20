@@ -1,0 +1,17 @@
+
+public class practice01 {
+
+	public static void main(String[] args) {
+		//1. arr 배열 중에서 인덱스가 1인 곳의 값 출력
+		
+		int[] arr = {10,20,30,50,3,60,-3};
+		System.out.println(arr[1]);
+		System.out.println("==========================");
+		
+		//2. arr 배열 중에서 값이 60인 곳의 인덱스 출력
+		int[] arr2 = {10,20,30,50,3,60,-3};
+		
+		System.out.println(arr[5]);
+	}
+
+}

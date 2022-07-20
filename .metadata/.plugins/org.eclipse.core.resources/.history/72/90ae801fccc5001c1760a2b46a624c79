@@ -1,0 +1,13 @@
+
+
+public class Staff extends Person {
+
+	boolean admin;
+
+	@Override
+	public void printMember() {
+		super.printMember();
+	}
+	
+	
+}

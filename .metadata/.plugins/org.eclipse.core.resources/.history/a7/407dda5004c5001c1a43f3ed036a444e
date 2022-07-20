@@ -1,0 +1,27 @@
+package DTO02;
+
+public class BoardDTO {
+	
+	int idx;
+	String title;
+	String content;
+	String writer;
+	int viewCnt;
+	Boolean noticeYn;
+	Boolean secretYn;
+	Boolean changeYn;
+	int fileIdxs;
+	
+	public void info() {
+		System.out.println("idx = " + idx);
+		System.out.println("title" + title);
+		System.out.println("content = " + content);
+		System.out.println("writer = " + writer);
+		System.out.println("viewCnt = " + viewCnt);
+		System.out.println("noticeYn = " + noticeYn);
+		System.out.println("secretYn = " + secretYn);
+		System.out.println("changeYn = " + changeYn);
+		System.out.println("fileIdxs = " + fileIdxs);
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class practice02 {
+		String paginationInfo;
+		Boolean deleteYn;
+		String insertTime;
+		String updateTime;
+		String delteTime;
+		int idx;
+		int boardIdx;
+		String content;
+		String writer;
+
+}

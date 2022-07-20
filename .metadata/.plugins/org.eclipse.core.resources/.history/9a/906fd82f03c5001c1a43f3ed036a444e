@@ -1,0 +1,20 @@
+
+public class DTOTest {
+
+	public static void main(String[] args) {
+		
+		CommonDTO commonDTO = new CommonDTO();
+		
+		commonDTO.setDelteTime("2022-04-26 10:48");
+		commonDTO.setDeleteYn(true);
+		commonDTO.setInsertTime("2022-04-26 09:00");
+		commonDTO.setPaginationInfo("페이징 번호");
+		
+		
+		System.out.println();
+		
+				
+		
+	}
+
+}

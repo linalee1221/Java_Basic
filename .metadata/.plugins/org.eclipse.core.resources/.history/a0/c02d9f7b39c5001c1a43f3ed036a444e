@@ -1,0 +1,18 @@
+package DTO7;
+
+public class CategoryDTO {
+
+	int	idParent;
+	String title;
+	String icon;
+	String description;
+	
+	public void info() {
+		System.out.println("idParent = " + idParent);
+		System.out.println("title = " + title);
+		System.out.println("icon = " + icon);
+		System.out.println("description = " + description);
+	}
+
+	
+}

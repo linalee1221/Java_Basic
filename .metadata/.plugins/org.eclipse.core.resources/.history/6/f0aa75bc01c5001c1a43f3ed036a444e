@@ -1,0 +1,19 @@
+
+public class CommonDTO {
+
+	String paginationInfo;
+	Boolean deleteYn;
+	String insertTime;
+	String updateTime;
+	String delteTime;
+
+	// 멤버변수 출력용 메소드
+	public void info() {
+		System.out.println("paginationInfo = " + paginationInfo);
+		System.out.println("deleteYn = " + deleteYn);
+		System.out.println("insertTime = " + insertTime);
+		System.out.println("updateTime = " + updateTime);
+		System.out.println("delteTime = " + delteTime);
+	}
+
+}

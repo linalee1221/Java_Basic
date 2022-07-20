@@ -1,0 +1,31 @@
+package DTO7;
+
+public class ProductDTO {
+
+	String name;
+	int	price;
+	String description;
+	String imageUrl;
+	String color;
+	int	size;
+	int	discount;
+	int	categoryId;
+	String createTimestamp;
+	String updateTimestamp;
+	int	discountPrice;
+	
+	public void info() {
+		System.out.println("상품 이름 = " + name);
+		System.out.println("상품 가격 = " + price);
+		System.out.println("상품 설명 = " + description);
+		System.out.println("상품 이미지 경로 = " + imageUrl);
+		System.out.println("상품 색상 = " + color);
+		System.out.println("상품 크기 = " + size);
+		System.out.println("상품 할인율 = " + discount);
+		System.out.println("상품 카테고리 id = " + categoryId);
+		System.out.println("상품 등록 일자 = " + createTimestamp);
+		System.out.println("상품 수정 일자 = " + updateTimestamp);
+		System.out.println("상품 할인가격 = " + discountPrice);
+	}
+
+}

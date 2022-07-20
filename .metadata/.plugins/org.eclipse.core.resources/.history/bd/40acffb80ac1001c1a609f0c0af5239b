@@ -1,0 +1,15 @@
+package multithread;
+
+public class Account {
+	int balance = 100;
+	
+	public void withDraw(int money) {
+		if(balance >= money) {
+			try {
+				
+			} catch (Exception e) {
+				System.out.println("에러가 발생했습니다.");
+			}
+		}
+	}
+}

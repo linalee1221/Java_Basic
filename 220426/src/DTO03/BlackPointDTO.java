@@ -1,0 +1,18 @@
+package DTO03;
+
+public class BlackPointDTO extends DTO {
+
+	boolean blackYn; // 흑백여부
+	
+	// setter : 멤버변수 저장용 메소드
+	void setBlackYn(boolean blackYn) {
+		this.blackYn = blackYn;
+	}
+
+	@Override
+	void showPoint() {
+		System.out.println("blackYn : " + blackYn); // 흑백여부 출력
+		super.showPoint();
+	}
+	
+}

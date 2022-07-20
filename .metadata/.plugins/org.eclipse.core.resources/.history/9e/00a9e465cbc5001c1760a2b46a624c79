@@ -1,0 +1,20 @@
+
+public class CardPrint implements Card {
+	
+	public void getCardId() {
+		System.out.println("CardId");
+	}
+	
+	public void getCardName() {
+		System.out.println("CardId");
+	}
+	
+	public void getCardDescription() {
+		System.out.println("CardId");
+	}
+	
+	public void printCard() {
+		System.out.println("CardId");
+	}
+	
+}

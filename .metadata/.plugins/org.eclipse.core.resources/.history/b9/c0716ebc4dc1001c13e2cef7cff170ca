@@ -1,0 +1,12 @@
+package Server;
+
+import java.net.ServerSocket;
+
+public class SocketServer {
+
+	public static void main(String[] args) {
+		int port = 8888;
+		ServerSocket socketServer = new SocketServer(port);
+	}
+
+}

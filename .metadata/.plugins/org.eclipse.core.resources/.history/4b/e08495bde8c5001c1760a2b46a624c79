@@ -1,0 +1,21 @@
+import java.sql.Date;
+
+public class BookDTO {
+	
+	int bookId; 
+	String bookName; 
+	int authorId; 
+	String authorName; 
+	String publeYear; 
+	String publisher; 
+	String cateCode; 
+	String cateName; 
+	int bookPrice; 
+	int bookStock; 
+	double bookDiscount; 
+	String bookIntro; 
+	String bookContents; 
+	Date regDate; 
+	Date updateDate; 
+
+}

@@ -1,0 +1,9 @@
+package DTO08;
+
+public class Rect extends Print {
+	
+	public void draw() {
+		System.out.println("Rect");
+	}
+
+}

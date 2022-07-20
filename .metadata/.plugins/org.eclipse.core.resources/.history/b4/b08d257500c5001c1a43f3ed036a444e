@@ -1,0 +1,69 @@
+
+public class practice02 {
+	
+		String paginationInfo;
+		Boolean deleteYn;
+		String insertTime;
+		String updateTime;
+		String delteTime;
+		int idx;
+		int boardIdx;
+		String content;
+		String writer;
+		
+		public String getPaginationInfo() {
+			return paginationInfo;
+		}
+		public void setPaginationInfo(String paginationInfo) {
+			this.paginationInfo = paginationInfo;
+		}
+		public Boolean getDeleteYn() {
+			return deleteYn;
+		}
+		public void setDeleteYn(Boolean deleteYn) {
+			this.deleteYn = deleteYn;
+		}
+		public String getInsertTime() {
+			return insertTime;
+		}
+		public void setInsertTime(String insertTime) {
+			this.insertTime = insertTime;
+		}
+		public String getUpdateTime() {
+			return updateTime;
+		}
+		public void setUpdateTime(String updateTime) {
+			this.updateTime = updateTime;
+		}
+		public String getDelteTime() {
+			return delteTime;
+		}
+		public void setDelteTime(String delteTime) {
+			this.delteTime = delteTime;
+		}
+		public int getIdx() {
+			return idx;
+		}
+		public void setIdx(int idx) {
+			this.idx = idx;
+		}
+		public int getBoardIdx() {
+			return boardIdx;
+		}
+		public void setBoardIdx(int boardIdx) {
+			this.boardIdx = boardIdx;
+		}
+		public String getContent() {
+			return content;
+		}
+		public void setContent(String content) {
+			this.content = content;
+		}
+		public String getWriter() {
+			return writer;
+		}
+		public void setWriter(String writer) {
+			this.writer = writer;
+		}
+
+}

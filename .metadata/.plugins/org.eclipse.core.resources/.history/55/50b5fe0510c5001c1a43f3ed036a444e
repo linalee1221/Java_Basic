@@ -1,0 +1,7 @@
+package DTO03;
+
+public abstract class DTO {
+	
+	public abstract void DTO();
+	
+}

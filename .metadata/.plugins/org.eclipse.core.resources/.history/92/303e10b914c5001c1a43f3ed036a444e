@@ -1,0 +1,21 @@
+package DTO04;
+
+public class Person {
+	
+	int age;
+	String name;
+	int height;
+	int weight;
+	
+	// getter
+	public int getWeight() {
+		return weight;
+	}
+	
+	// setter
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+
+}

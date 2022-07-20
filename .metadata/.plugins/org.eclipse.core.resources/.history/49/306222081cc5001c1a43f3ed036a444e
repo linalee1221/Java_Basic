@@ -1,0 +1,12 @@
+package DTO04;
+
+public class Staff extends Person {
+
+	public void setStaff() {
+		age = 35;
+		name = "홍길동";
+		height = 185;
+		weight = 78;
+	}
+	
+}

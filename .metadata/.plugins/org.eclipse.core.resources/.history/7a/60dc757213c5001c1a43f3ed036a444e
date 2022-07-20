@@ -1,0 +1,6 @@
+package DTO04;
+
+public class Staff extends Person {
+
+	int weight;
+}

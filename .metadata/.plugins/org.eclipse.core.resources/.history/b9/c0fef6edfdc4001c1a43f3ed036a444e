@@ -1,0 +1,10 @@
+package BBS_01;
+
+public class BbsDAO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

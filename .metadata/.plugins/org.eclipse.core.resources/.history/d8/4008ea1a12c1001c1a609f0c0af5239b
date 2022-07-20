@@ -1,0 +1,25 @@
+
+public class Ex13_12 {
+
+	public static void main(String[] args) {
+		Runnable r = new RunnableEx12();
+		new Thread(r).start(); // ThreadGroup에 의해 참조되므로 gc대상이 아님.
+		new Thread(r).start(); // ThreadGroup에 의해 참조되므로 gc대상이 아님.
+	}
+}
+
+class Account {
+	private int balance = 1000;
+	public int getBalance() {
+		return balance;
+	}
+	
+	public void withdraw(int money) {
+		if(balance >= money) {
+			try {
+				Thread.sleep(1000);
+			} catch(InterruptedException e) {
+			}
+		}
+	}
+}

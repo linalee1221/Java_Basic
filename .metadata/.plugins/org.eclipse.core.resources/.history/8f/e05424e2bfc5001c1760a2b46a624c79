@@ -1,0 +1,6 @@
+package DTO08;
+
+public class Print {
+	int x;
+	int y;
+}

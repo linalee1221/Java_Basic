@@ -1,0 +1,10 @@
+package DTO03;
+
+public class BlackPointDTO {
+	
+	int x;
+	int y;
+	boolean blackYn;
+	
+	
+}

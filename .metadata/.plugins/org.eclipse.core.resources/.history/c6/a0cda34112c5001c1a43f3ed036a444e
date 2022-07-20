@@ -1,0 +1,10 @@
+package DTO03;
+
+public class DTOmain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

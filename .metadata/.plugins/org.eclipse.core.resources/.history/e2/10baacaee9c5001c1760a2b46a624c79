@@ -1,0 +1,9 @@
+
+public class CategoryDTO {
+	
+	int tier; 
+	String cateName; 
+	String cateCode; 
+	String cateParent; 
+
+}

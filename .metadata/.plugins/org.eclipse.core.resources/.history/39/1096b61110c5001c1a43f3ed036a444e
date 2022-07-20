@@ -1,0 +1,12 @@
+package DTO03;
+
+public class BlackPointDTO {
+
+	boolean blackYn;
+	
+	@Override
+	public void DTO() {
+		System.out.println(blackYn + " 이고, 위치는 " + this.x + " " + this.y + " 입니다.");
+	}
+	
+}

@@ -1,0 +1,20 @@
+
+public class Member {
+	
+	int id;
+	String name;
+	String description;
+	String text;
+	
+	
+	
+	public Member() {
+	}
+
+
+
+	public void printMember() {
+		System.out.println("안녕하세요");
+	}
+
+}

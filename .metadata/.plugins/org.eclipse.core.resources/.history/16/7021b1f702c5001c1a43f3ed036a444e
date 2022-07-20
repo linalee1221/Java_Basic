@@ -1,0 +1,19 @@
+
+public class DTOTest {
+
+	public static void main(String[] args) {
+		
+		CommonDTO book = new CommonDTO();
+		
+		book.setPaginationInfo("페이징 번호");
+		book.setDeleteYn(true);
+		
+		
+		
+		System.out.println();
+		
+				
+		
+	}
+
+}

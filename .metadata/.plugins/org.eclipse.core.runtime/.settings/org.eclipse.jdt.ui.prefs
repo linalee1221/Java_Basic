@@ -1,0 +1,25 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_number_of_computers=12
+eclipse.preferences.version=1
+java_comment_task_tag=252,171,254
+java_keyword=231,150,84
+java_keyword_return=241,157,44
+java_multi_line_comment=252,171,254
+java_multi_line_comment_bold=true
+java_single_line_comment=252,171,254
+java_single_line_comment_bold=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+semanticHighlighting.abstractClass.bold=true
+semanticHighlighting.abstractClass.color=128,255,255
+semanticHighlighting.abstractMethodInvocation.bold=true
+semanticHighlighting.class.bold=true
+semanticHighlighting.class.color=140,255,255
+semanticHighlighting.enum.bold=true
+semanticHighlighting.field.bold=true
+semanticHighlighting.inheritedMethodInvocation.bold=true
+semanticHighlighting.interface.bold=true
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

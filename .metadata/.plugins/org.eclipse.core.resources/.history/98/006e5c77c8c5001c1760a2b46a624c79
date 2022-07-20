@@ -1,0 +1,26 @@
+
+public class Member {
+	
+	int id;
+	String name;
+	String description;
+	String text;
+	
+	public Member(int id, String name, String description, String text) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.text = text;
+	}
+
+	public Member() {
+	}
+
+
+
+	public void printMember() {
+		System.out.println("안녕하세요");
+	}
+
+}

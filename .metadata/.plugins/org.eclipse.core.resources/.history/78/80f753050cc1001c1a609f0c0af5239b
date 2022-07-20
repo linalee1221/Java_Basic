@@ -1,0 +1,15 @@
+package multithread;
+
+public class WorldBank implements Runnable {
+	Account acc = new Account(); // 통장
+
+	@Override
+	public void run() {
+		while(acc.balance > 0) {
+			int money = 100; // 100원 출금
+			acc.withDraw(money);
+		}
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package DTO03;
+
+public class ColorPointDTO {
+	
+	int x;
+	int y;
+	String color;
+
+}

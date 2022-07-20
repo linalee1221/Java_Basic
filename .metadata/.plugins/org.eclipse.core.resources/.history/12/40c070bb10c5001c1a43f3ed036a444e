@@ -1,0 +1,14 @@
+package DTO03;
+
+public class ColorPointDTO extends DTO {
+	
+	String color;
+
+	@Override
+	public void DTO() {
+		System.out.println(color + " 색상이고 위치는 " + this.x + " " + this.y + " 입니다.");
+	}
+	
+	
+
+}

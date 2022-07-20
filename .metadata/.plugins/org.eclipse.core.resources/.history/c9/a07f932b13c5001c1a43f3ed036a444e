@@ -1,0 +1,9 @@
+package DTO04;
+
+public class Student extends Person {
+	
+	void setStudent() {
+		
+	}
+
+}

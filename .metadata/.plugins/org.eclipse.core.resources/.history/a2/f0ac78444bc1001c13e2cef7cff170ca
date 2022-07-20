@@ -1,0 +1,24 @@
+package Server;
+
+import java.net.Socket;
+import java.util.Scanner;
+
+public class SendThread extends Thread {
+	private final Socket socket;
+	private Scanner scanner = new Scanner(System.in);
+	
+	// 생성자
+	public SendThread(Socket socket) {
+		this.socket = socket;
+	}
+
+	@Override
+	public void run() {
+		super.run();
+	}
+	
+	
+	
+	
+	
+}

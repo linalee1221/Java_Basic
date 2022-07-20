@@ -1,0 +1,32 @@
+package DTO02;
+
+import DTO01.CommentDTO;
+import DTO01.CommonDTO;
+
+public class DTOTest02 {
+
+	public static void main(String[] args) {
+		
+		BoardDTO boardDTO = new BoardDTO();
+
+		boardDTO.setIdx("번호(PX)");
+		boardDTO.setTitle("제목");
+		boardDTO.setContent("내용");
+		boardDTO.setWriter("작성자");
+		
+
+		// commonDTO에 현재 저장된 내용을 출력
+		commonDTO.info();
+
+		CommentDTO commentDTO = new CommentDTO();
+
+		commentDTO.setBoardIdx(1);
+		commentDTO.setContent("게시판 내용");
+		commentDTO.setIdx(1);
+		commentDTO.setWriter("글쓴이");
+
+		System.out.println("==============================");
+		commentDTO.info();
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Staff {
+
+	boolean admin;
+	
+	public void printMember() {
+		System.out.println("안녕하세요.");
+	}
+}

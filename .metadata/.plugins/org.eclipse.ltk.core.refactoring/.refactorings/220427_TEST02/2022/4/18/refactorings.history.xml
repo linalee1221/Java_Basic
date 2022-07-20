@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;220427_TEST02/src/DTO&apos;&#x0D;&#x0A;- Original project: &apos;220427_TEST02&apos;&#x0D;&#x0A;- Destination element: &apos;220427_TEST02/src/DTO&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     BookDTO.java&#x0D;&#x0A;     AuthorDTO.java&#x0D;&#x0A;     CategoryDTO.java&#x0D;&#x0A;     OrderDTO.java&#x0D;&#x0A;     MemberDTO.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;DTO" element1="/src&lt;{BookDTO.java" element2="/src&lt;{AuthorDTO.java" element3="/src&lt;{CategoryDTO.java" element4="/src&lt;{OrderDTO.java" element5="/src&lt;{MemberDTO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1651036841567" units="5" version="1.0"/>
+</session>

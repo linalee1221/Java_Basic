@@ -1,0 +1,9 @@
+package DTO08;
+
+public class Circle extends Print {
+	
+	public void draw() {
+		System.out.println("Circle");
+	}
+
+}

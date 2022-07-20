@@ -1,0 +1,13 @@
+import java.sql.Date;
+
+public class AuthorDTO {
+	
+	int authorId; 
+	String authorName; 
+	String nationId; 
+	String nationName; 
+	String authorIntro; 
+	Date regDate; 
+	Date updateDate; 
+
+}

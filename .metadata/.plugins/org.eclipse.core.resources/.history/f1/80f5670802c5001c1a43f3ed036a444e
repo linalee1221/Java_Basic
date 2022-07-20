@@ -1,0 +1,17 @@
+
+public class CommentDTO {
+	
+	int idx;
+	int boardIdx;
+	String content;
+	String writer;
+	
+	// 멤버변수 출력용 메소드
+	// 디버깅 목적
+	public void info() {
+		System.out.println();
+	}
+	
+	
+	
+}

@@ -1,0 +1,45 @@
+package DTO05;
+
+public class BoardServiceImpl implements BoardService {
+
+	@Override
+	public void registerBoard(String params) {
+		System.out.println("게시판 등록");
+	}
+
+	@Override
+	public void registerBoard(String params, String files) {
+		System.out.println("게시판 등록");		
+	}
+
+	@Override
+	public void getBoardDetail(Long idx) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteBoard(Long idx) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getBoardList(String params) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getAttachFileList(Long boardIdx) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getAttachDetail(Long idx) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

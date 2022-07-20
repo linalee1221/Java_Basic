@@ -1,0 +1,8 @@
+package DTO05;
+
+public interface BoardService {
+	
+	abstract void BoardServiceImpl();	
+	
+
+}

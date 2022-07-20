@@ -1,0 +1,10 @@
+package DTO04;
+
+public class Person {
+	
+	int age;
+	String name;
+	int height;
+	int weight;
+
+}

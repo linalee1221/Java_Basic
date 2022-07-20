@@ -1,0 +1,9 @@
+
+public class CommentDTO {
+	
+	private int idx;
+	private int boardIdx;
+	private String content;
+	private String writer;
+	
+}

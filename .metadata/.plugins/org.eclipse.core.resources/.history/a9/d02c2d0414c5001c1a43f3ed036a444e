@@ -1,0 +1,17 @@
+package DTO04;
+
+public class Person {
+	
+	int age;
+	String name;
+	int height;
+	int weight;
+	
+	void setStudent() {
+		System.out.println("age = " + age);
+		System.out.println("name = " + name);
+		System.out.println("height = " + height);
+		System.out.println("weight = " + weight);
+	}
+
+}

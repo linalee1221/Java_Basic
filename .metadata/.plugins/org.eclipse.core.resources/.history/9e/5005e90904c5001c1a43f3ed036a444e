@@ -1,0 +1,10 @@
+package DTO02;
+
+public class AttachDTO {
+	
+	int idx;
+	int boardIdx;
+	String originalName;
+	String saveName;
+	int size;
+}

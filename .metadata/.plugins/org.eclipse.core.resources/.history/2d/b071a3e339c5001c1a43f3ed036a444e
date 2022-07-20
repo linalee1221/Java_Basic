@@ -1,0 +1,21 @@
+package DTO7;
+
+public class ProductDTO {
+
+	String name;
+	int	price;
+	String description;
+	String imageUrl;
+	String color;
+	int	size;
+	int	discount;
+	int	categoryId;
+	String createTimestamp;
+	String updateTimestamp;
+	int	discountPrice;
+	
+	public void info() {
+		System.out.println();
+	}
+
+}
